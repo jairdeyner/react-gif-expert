@@ -11,7 +11,7 @@ export const GifItem = ({ gif }) => {
 
 GifItem.propTypes = {
   gif: PropTypes.shape({
-    id: PropTypes.number,
+    id: PropTypes.string,
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
   }).isRequired,
