@@ -3,7 +3,7 @@ import { GifItem } from "../../src/components/GifItem";
 
 describe("Test en <GifItem />", () => {
   const gif = {
-    id: 2,
+    id: "2",
     title: "Naruto",
     url: "https://naruto.png/",
   };
